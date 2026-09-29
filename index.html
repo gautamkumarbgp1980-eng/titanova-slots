@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TITANOVA Slots</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#080808;
+    color:#fff;
+    text-align:center;
+}
+
+.header{
+    padding:28px 15px;
+    background:linear-gradient(135deg,#111,#252000);
+    border-bottom:1px solid #d4af37;
+}
+
+.header h1{
+    margin:0;
+    color:#ffd700;
+    font-size:30px;
+}
+
+.header p{
+    margin:8px 0 0;
+    color:#ddd;
+}
+
+.container{
+    max-width:600px;
+    margin:auto;
+    padding:20px 15px 40px;
+}
+
+.slot{
+    background:linear-gradient(145deg,#151515,#0d0d0d);
+    border:1px solid #8f7620;
+    border-radius:15px;
+    margin:15px 0;
+    padding:20px;
+    box-shadow:0 0 12px rgba(212,175,55,.15);
+}
+
+.slot h2{
+    margin:0 0 10px;
+    color:#ffd700;
+}
+
+.amount{
+    font-size:22px;
+    font-weight:bold;
+    color:#fff;
+    margin-bottom:15px;
+}
+
+.slot button{
+    width:100%;
+    padding:13px;
+    border:0;
+    border-radius:8px;
+    background:linear-gradient(90deg,#d4af37,#ffd700);
+    color:#000;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.slot button:active{
+    transform:scale(.98);
+}
+
+.footer{
+    margin-top:20px;
+    color:#999;
+    font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>🔥 TITANOVA SLOTS</h1>
+    <p>Slot 1 to Slot 12</p>
+</div>
+
+<div class="container">
+
+<div class="slot">
+<h2>Slot 1</h2>
+<div class="amount">0.001 BTCB</div>
+<button onclick="selectSlot(1,'0.001')">SELECT SLOT 1</button>
+</div>
+
+<div class="slot">
+<h2>Slot 2</h2>
+<div class="amount">0.002 BTCB</div>
+<button onclick="selectSlot(2,'0.002')">SELECT SLOT 2</button>
+</div>
+
+<div class="slot">
+<h2>Slot 3</h2>
+<div class="amount">0.004 BTCB</div>
+<button onclick="selectSlot(3,'0.004')">SELECT SLOT 3</button>
+</div>
+
+<div class="slot">
+<h2>Slot 4</h2>
+<div class="amount">0.008 BTCB</div>
+<button onclick="selectSlot(4,'0.008')">SELECT SLOT 4</button>
+</div>
+
+<div class="slot">
+<h2>Slot 5</h2>
+<div class="amount">0.016 BTCB</div>
+<button onclick="selectSlot(5,'0.016')">SELECT SLOT 5</button>
+</div>
+
+<div class="slot">
+<h2>Slot 6</h2>
+<div class="amount">0.032 BTCB</div>
+<button onclick="selectSlot(6,'0.032')">SELECT SLOT 6</button>
+</div>
+
+<div class="slot">
+<h2>Slot 7</h2>
+<div class="amount">0.064 BTCB</div>
+<button onclick="selectSlot(7,'0.064')">SELECT SLOT 7</button>
+</div>
+
+<div class="slot">
+<h2>Slot 8</h2>
+<div class="amount">0.128 BTCB</div>
+<button onclick="selectSlot(8,'0.128')">SELECT SLOT 8</button>
+</div>
+
+<div class="slot">
+<h2>Slot 9</h2>
+<div class="amount">0.256 BTCB</div>
+<button onclick="selectSlot(9,'0.256')">SELECT SLOT 9</button>
+</div>
+
+<div class="slot">
+<h2>Slot 10</h2>
+<div class="amount">0.512 BTCB</div>
+<button onclick="selectSlot(10,'0.512')">SELECT SLOT 10</button>
+</div>
+
+<div class="slot">
+<h2>Slot 11</h2>
+<div class="amount">1.024 BTCB</div>
+<button onclick="selectSlot(11,'1.024')">SELECT SLOT 11</button>
+</div>
+
+<div class="slot">
+<h2>Slot 12</h2>
+<div class="amount">2.048 BTCB</div>
+<button onclick="selectSlot(12,'2.048')">SELECT SLOT 12</button>
+</div>
+
+<div class="footer">
+    TITANOVA • Please verify all transaction details before making any blockchain transaction.
+</div>
+
+</div>
+
+<script>
+function selectSlot(slot, amount){
+    alert("Slot " + slot + " selected\nAmount: " + amount + " BTCB");
+}
+</script>
+
+</body>
+</html>
